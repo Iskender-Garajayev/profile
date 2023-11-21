@@ -7,6 +7,7 @@ const AboutMe = () => {
       <div className='about-inner'>
         <div className='about-title'>
           <p>Hi, my name is Iskender Garajayev</p>
+          <p>I'm</p>
         </div>
         <div className='about-img'>
           <img src={Avatar} alt='avatar' />
