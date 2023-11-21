@@ -10,7 +10,6 @@ const Header = () => {
             <li>about me</li>
             <li>skils</li>
             <li>projects</li>
-            <li></li>
             <li>contacts</li>
           </ul>
         </div>
