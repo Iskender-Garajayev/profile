@@ -35,11 +35,15 @@
   list-style-type: none;
   text-transform: capitalize;
   font-family: 'Noto Sans Mono', monospace;
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
 }
 
 .header-icon {
+  display: none;
+}
+
+.close-icon{
   display: none;
 }
 
@@ -69,4 +73,11 @@
     font-weight: 600;
     cursor: pointer;
   }
+
+  .active-close{
+    display: contents;
+    position: relative;
+    padding-bottom: 300px;
+  }
+
 }
