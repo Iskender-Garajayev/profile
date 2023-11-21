@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/* Header Sectin start */
+
 .logo {
   font-family: 'Alex Brush', cursive;
   font-size: 24px;
@@ -26,7 +28,7 @@
   justify-content: space-between;
 }
 
-.navbar-container{
+.navbar-container {
   position: relative;
 }
 
@@ -48,11 +50,33 @@
   display: none;
 }
 
-.close-icon{
+.close-icon {
   display: none;
 }
 
+/* Header Sectin end */
+
+/* Abour Section start */
+
+.about-container {
+  width: 100%;
+  height: 600px;
+}
+
+.about-inner {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 100px;
+}
+
+/* Abour Section end */
+
 @media only screen and (max-width: 600px) {
+  /* Header Section Start */
   .navbar {
     display: none;
   }
@@ -79,9 +103,15 @@
     cursor: pointer;
   }
 
-  .active-close{
+  .active-close {
     position: absolute;
     display: contents;
     top: -300px;
   }
+
+  /* Header Section end */
+
+  /* Abour Section start */
+
+  /* Abour Section end */
 }
