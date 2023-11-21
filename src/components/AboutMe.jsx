@@ -9,7 +9,7 @@ const AboutMe = () => {
           <p>Hi, my name is Iskender Garajayev</p>
         </div>
         <div className='about-img'>
-          <img src={Avatar} alt='' />
+          <img src={Avatar} alt='avatar' />
         </div>
       </div>
     </div>
