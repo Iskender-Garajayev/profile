@@ -11,14 +11,14 @@ const Header = () => {
     <div className='header-container'>
       <div className='header-inner'>
         <div className='logo'>I.G</div>
-        <div className={isActive ? 'navbar' : 'active'}>
-          <ul>
+        <div>
+          <ul className={isActive ? 'navbar' : 'active'}>
             <li>about me</li>
             <li>skils</li>
             <li>projects</li>
             <li>contacts</li>
           </ul>
-          <div className='header-icon'>
+          <div className={isActive ? 'header-icon' : 'active-icon'}>
             <svg
               onClick={toggleClass}
               xmlns='http://www.w3.org/2000/svg'
