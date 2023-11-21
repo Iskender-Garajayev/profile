@@ -121,6 +121,12 @@
   /* Header Section end */
 
   /* Abour Section start */
-
+  .about-inner {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+  }
   /* Abour Section end */
 }
