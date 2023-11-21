@@ -1,11 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Header = () => {
+  const [isActive, setIsActive] = useState(true);
+
+  const toggleClass = () => {
+    setIsActive(!isActive);
+  };
+
   return (
     <div className='header-container'>
       <div className='header-inner'>
         <div className='logo'>I.G</div>
-        <div className='navbar'>
+        <div className={isActive ? 'navbar' : 'active'}>
           <ul>
             <li>about me</li>
             <li>skils</li>
@@ -14,6 +20,7 @@ const Header = () => {
           </ul>
           <div className='header-icon'>
             <svg
+              onClick={toggleClass}
               xmlns='http://www.w3.org/2000/svg'
               height='1.3em'
               viewBox='0 0 448 512'>

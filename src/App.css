@@ -35,15 +35,15 @@
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-
   .navbar ul {
     display: none;
   }
 
   .header-icon {
+    display: contents;
+  }
+
+  .active ul {
     display: contents;
   }
 }
