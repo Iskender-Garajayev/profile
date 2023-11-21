@@ -60,7 +60,7 @@
 
 .about-container {
   width: 100%;
-  height: 600px;
+  height: 60vh;
 }
 
 .about-inner {
@@ -83,6 +83,21 @@
 }
 
 /* Abour Section end */
+
+/* Skills section start */
+.skill-container {
+  width: 100%;
+}
+
+.skill-inner {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.bootstrap {
+  width: 50px;
+}
+/* Skills section end */
 
 @media only screen and (max-width: 600px) {
   /* Header Section Start */
@@ -121,6 +136,12 @@
   /* Header Section end */
 
   /* Abour Section start */
+
+  .about-container {
+    width: 100%;
+    height: 10vh;
+  }
+
   .about-inner {
     display: flex;
     flex-direction: column-reverse;
@@ -129,4 +150,10 @@
     gap: 30px;
   }
   /* Abour Section end */
+
+  /* Skills Section Start */
+  .bootstrap svg {
+    width: 50px;
+  }
+  /* Skills Section end */
 }
