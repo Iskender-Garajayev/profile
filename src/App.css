@@ -36,6 +36,7 @@
   text-transform: capitalize;
   font-family: 'Noto Sans Mono', monospace;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .header-icon {
@@ -49,5 +50,23 @@
 
   .header-icon {
     display: contents;
+  }
+
+  .active-icon {
+    display: none;
+  }
+
+  .active {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 200px;
+  }
+  .active li {
+    list-style-type: none;
+    text-transform: capitalize;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: 600;
+    cursor: pointer;
   }
 }
