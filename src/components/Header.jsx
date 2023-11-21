@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
   return (
     <div>
-      "df"
+      İskender Garajayev
     </div>
   )
 }
