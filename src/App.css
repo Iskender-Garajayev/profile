@@ -118,9 +118,23 @@
   margin: 0 auto;
 }
 
-.skill-logo svg {
-  width: 50px;
+.skill-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin: 30px auto;
 }
+.skill-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skill-logo svg {
+  width: 70px;
+  height: auto;
+}
+
 /* Skills section end */
 
 @media only screen and (max-width: 600px) {
@@ -193,8 +207,21 @@
   /* Abour Section end */
 
   /* Skills Section Start */
-  .bootstrap svg {
-    width: 50px;
+  .skill-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 30px auto;
+  }
+  .skill-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .skill-logo svg {
+    width: 40px;
+    height: auto;
   }
   /* Skills Section end */
 }
