@@ -5,7 +5,7 @@ const Skills = () => {
     <div className='skill-container'>
       <div className='skill-inner'>
         <div className='skill-title'>
-          <h2>skills</h2>
+          <h2>my skills</h2>
         </div>
         <div className='skill-logo-container'>
           {/* javascript */}
