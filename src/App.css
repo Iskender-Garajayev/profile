@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/* Header Sectin start */
+
 .logo {
   font-family: 'Alex Brush', cursive;
   font-size: 24px;
@@ -15,6 +17,7 @@
   width: 100%;
   height: 60px;
   border-bottom: 1px solid black;
+  background: #fff;
 }
 
 .header-inner {
@@ -26,7 +29,7 @@
   justify-content: space-between;
 }
 
-.navbar-container{
+.navbar-container {
   position: relative;
 }
 
@@ -48,11 +51,118 @@
   display: none;
 }
 
-.close-icon{
+.close-icon {
   display: none;
 }
 
+/* Header Sectin end */
+
+/* Abour Section start */
+
+.about-container {
+  width: 100%;
+  height: 60vh;
+}
+
+.about-inner {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.about-img img {
+  width: 80%;
+}
+.about-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Noto Sans Mono', monospace;
+  font-weight: 600;
+  font-size: 18px;
+  gap: 10px;
+  width: 450px;
+  height: 100px;
+  margin: auto;
+}
+
+.contact-icons {
+  display: flex;
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.icon svg {
+  width: 30px;
+}
+
+/* Abour Section end */
+
+/* Skills section start */
+.skill-container {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.skill-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Noto Sans Mono', monospace;
+  text-transform: capitalize;
+}
+
+.skill-inner {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.skill-logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin: 30px auto;
+}
+
+.container-first {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.container-second {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.skill-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skill-logo svg {
+  width: 70px;
+  height: auto;
+}
+
+/* Skills section end */
+
 @media only screen and (max-width: 600px) {
+  /* Header Section Start */
   .navbar {
     display: none;
   }
@@ -72,16 +182,84 @@
     margin-top: 200px;
   }
   .active li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     list-style-type: none;
     text-transform: capitalize;
     font-family: 'Noto Sans Mono', monospace;
     font-weight: 600;
     cursor: pointer;
+    background: rgb(187, 179, 179);
+    width: 150px;
   }
 
-  .active-close{
+  .active-close {
     position: absolute;
     display: contents;
     top: -300px;
   }
+
+  /* Header Section end */
+
+  /* Abour Section start */
+
+  .about-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-inner {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+  }
+  .about-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: 600;
+    font-size: 16px;
+    width: 350px;
+    height: 100px;
+    margin: 0 auto;
+  }
+
+  /* Abour Section end */
+
+  /* Skills Section Start */
+  .skill-logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 30px auto;
+  }
+  .skill-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .skill-logo svg {
+    width: 50px;
+    height: auto;
+  }
+
+  .container-first {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .container-second {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  /* Skills Section end */
 }
