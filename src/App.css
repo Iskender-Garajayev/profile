@@ -120,11 +120,25 @@
 
 .skill-logo-container {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 25px;
   margin: 30px auto;
 }
+
+.container-first {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.container-second {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
 .skill-logo {
   display: flex;
   justify-content: center;
@@ -209,6 +223,7 @@
   /* Skills Section Start */
   .skill-logo-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -220,8 +235,20 @@
     align-items: center;
   }
   .skill-logo svg {
-    width: 30px;
+    width: 50px;
     height: auto;
+  }
+
+  .container-first {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .container-second {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
   }
   /* Skills Section end */
 }
