@@ -97,6 +97,16 @@
   margin: auto;
 }
 
+.contact-icons {
+  display: flex;
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.icon svg {
+  width: 30px;
+}
+
 /* Abour Section end */
 
 /* Skills section start */
