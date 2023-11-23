@@ -7,7 +7,7 @@ const AboutMe = () => {
       <div className='about-inner'>
         <div className='about-title'>
           <p>Hi, my name is Iskender Garajayev</p>
-          <p>I' Front-end Developer</p>
+          <p>I'm Front-end Developer</p>
           <div className='contact-icons'>
             <div className='icon'>
               <a href='mailto:garajayev@gmail.com'>
