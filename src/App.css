@@ -176,6 +176,7 @@
   }
 
   .active {
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -195,9 +196,19 @@
   }
 
   .active-close {
-    position: absolute;
+    width: 10px;
+    height: 10px;
+    position: relative;
     display: contents;
-    top: -300px;
+    margin-top: 10px;
+  }
+
+  .active-close svg {
+    position: absolute;
+    width: 25px;
+    /* background: red; */
+    margin-top: -167px;
+    margin-left: 130px;
   }
 
   /* Header Section end */
