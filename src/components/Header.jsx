@@ -15,6 +15,8 @@ const Header = () => {
           <ul className={isActive ? 'navbar' : 'active'}>
             <li>about me</li>
             <li>skils</li>
+            <li>education</li>
+            <li>experience</li>
             <li>projects</li>
             <li>contacts</li>
           </ul>
