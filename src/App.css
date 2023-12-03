@@ -61,7 +61,7 @@
 
 .about-container {
   width: 100%;
-  height: 60vh;
+  height: 570px;
 }
 
 .about-inner {
@@ -92,7 +92,7 @@
   font-weight: 600;
   font-size: 18px;
   gap: 10px;
-  width: 450px;
+  width: 550px;
   height: 100px;
   margin: auto;
 }
@@ -112,7 +112,7 @@
 /* Skills section start */
 .skill-container {
   width: 100%;
-  margin-top: 200px;
+  margin-top: 50px;
 }
 
 .skill-title {
@@ -269,6 +269,12 @@
   /* Abour Section end */
 
   /* Skills Section Start */
+
+  .skill-container {
+    width: 100%;
+    margin-top: 50px;
+  }
+
   .skill-logo-container {
     display: flex;
     flex-direction: column;
