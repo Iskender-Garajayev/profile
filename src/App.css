@@ -39,6 +39,10 @@
   gap: 20px;
 }
 
+.icon-navbar {
+  display: none;
+}
+
 .navbar li {
   list-style-type: none;
   text-transform: capitalize;
@@ -56,6 +60,10 @@
 }
 
 /* Header Sectin end */
+
+/* header icons start */
+
+/* header icons end */
 
 /* Abour Section start */
 
@@ -199,13 +207,17 @@
   }
 
   .active {
+    display: none;
+  }
+
+  .icon-active {
     position: relative;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-top: 250px;
+    margin-top: 200px;
   }
-  .active li {
+  .icon-active li {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -215,7 +227,7 @@
     font-weight: 600;
     cursor: pointer;
     /* background: rgb(187, 179, 179); */
-    width: 100px;
+    width: 20px;
   }
 
   .active-close {
@@ -230,8 +242,8 @@
     position: absolute;
     width: 25px;
     /* background: red; */
-    margin-top: -224px;
-    margin-left: 80px;
+    margin-top: -155px;
+    margin-left: 14px;
   }
 
   /* Header Section end */
