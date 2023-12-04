@@ -6,7 +6,9 @@ const Education = () => {
       <div className='education-header'>
         <h2>education</h2>
       </div>
-      <div className='education-inner'></div>
+      <div className='education-inner'>
+        <h3>Belarusian State Medical University</h3>
+      </div>
     </div>
   );
 };
