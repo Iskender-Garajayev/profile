@@ -7,7 +7,11 @@ const Education = () => {
         <h2>education</h2>
       </div>
       <div className='education-inner'>
-        <h3>Belarusian State Medical University</h3>
+        <ul>
+          <li>
+            <h3>Belarusian State Medical University</h3>
+          </li>
+        </ul>
       </div>
     </div>
   );
