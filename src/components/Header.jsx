@@ -19,7 +19,6 @@ const Header = () => {
             <li>projects</li>
             <li>contacts</li>
           </ul>
-
           <ul className={isActive ? 'icon-navbar' : 'icon-active'}>
             <li>
               <svg
@@ -165,7 +164,6 @@ const Header = () => {
               </svg>
             </li>
           </ul>
-
           <div className={isActive ? 'header-icon' : 'active-icon'}>
             <svg
               onClick={toggleClass}
