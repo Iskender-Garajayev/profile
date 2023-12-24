@@ -48,7 +48,14 @@
   text-transform: capitalize;
   font-family: 'Noto Sans Mono', monospace;
   font-weight: 500;
+  /* padding-bottom: 4px; */
   cursor: pointer;
+}
+
+.navbar li:hover {
+  border-bottom: 1px solid black;
+  /* transform: rotate(25deg);
+  transition: cubic-bezier(0.165, 0.84, 0.44, 1) 1.5s; */
 }
 
 .header-icon {

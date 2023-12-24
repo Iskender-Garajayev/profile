@@ -10,6 +10,7 @@ const Education = () => {
         <ul>
           <li>
             <h3>Belarusian State Medical University</h3>
+            <p>General Medicin 2019</p>
           </li>
         </ul>
       </div>
