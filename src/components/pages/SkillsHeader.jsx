@@ -6,7 +6,7 @@ const SkillsHeader = () => {
   return (
     <>
       <Header />
-      <div className='skill-container'>
+      <div className='skill-container-header'>
         <div className='skill-inner'>
           <div className='skill-title'>
             <h2>my skills</h2>
