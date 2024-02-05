@@ -1,17 +1,25 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import AboutMe from './components/AboutMe';
-import Education from './components/Education';
-import Header from './components/Header';
-// import Projects from './components/Projects';
-import Skills from './components/Skills';
+import AboutMeHeader from './components/pages/AboutMeHeader';
+import Home from './components/Home';
+import SkillsHeader from './components/pages/SkillsHeader';
+import EducationHeader from './components/pages/EducationHeader';
+import ProjectsHeader from './components/pages/ProjectsHeader';
+import ContactHeader from './components/pages/ContactHeader';
 
 function App() {
   return (
     <div className='App'>
-      <Header />
-      <AboutMe />
-      <Skills />
-      <Education/>
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path='/skills' element={<SkillsHeader />} />
+          <Route path='/projects' element={<ProjectsHeader />} />
+          <Route path='/about' element={<AboutMeHeader />} />
+          <Route path='/education' element={<EducationHeader />} />
+          <Route path='/contacts' element={<ContactHeader />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
