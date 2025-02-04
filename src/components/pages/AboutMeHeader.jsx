@@ -8,7 +8,7 @@ const AboutMe = () => {
       <Header />
       <div className='about-inner'>
         <div className='about-title'>
-          <p>Hi, my name is Iskender Garajayev</p>
+          <p>Hi, my name is Iskender Garajayevn</p>
           <p>I'm Front-end Developer</p>
           <div className='contact-icons'>
             <div className='icon'>
