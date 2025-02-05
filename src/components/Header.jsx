@@ -26,7 +26,7 @@ const Header = () => {
               <Link to='/skills'>resume</Link>
             </li>
             <li>
-              <Link to='/education'>partfolio</Link>
+              <Link to='/projects'>partfolio</Link>
             </li>
             {/* <li>
               {' '}
@@ -44,7 +44,8 @@ const Header = () => {
                   xmlns='http://www.w3.org/2000/svg'
                   class='ionicon'
                   height='2em'
-                  viewBox='0 0 512 512'>
+                  viewBox='0 0 512 512'
+                >
                   <path
                     d='M344 144c-3.92 52.87-44 96-88 96s-84.15-43.12-88-96c-4-55 35-96 88-96s92 42 88 96z'
                     fill='none'
@@ -69,7 +70,8 @@ const Header = () => {
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 class='ionicon'
-                viewBox='0 0 512 512'>
+                viewBox='0 0 512 512'
+              >
                 <path
                   d='M436.67 184.11a27.17 27.17 0 01-38.3 0l-22.48-22.49a27.15 27.15 0 010-38.29l50.89-50.89a.85.85 0 00-.26-1.38C393.68 57 351.09 64.15 324.05 91c-25.88 25.69-27.35 64.27-17.87 98a27 27 0 01-7.67 27.14l-173 160.76a40.76 40.76 0 1057.57 57.54l162.15-173.3a27 27 0 0126.77-7.7c33.46 8.94 71.49 7.26 97.07-17.94 27.49-27.08 33.42-74.94 20.1-102.33a.85.85 0 00-1.36-.22z'
                   fill='none'
@@ -100,7 +102,8 @@ const Header = () => {
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 class='ionicon'
-                viewBox='0 0 512 512'>
+                viewBox='0 0 512 512'
+              >
                 <path
                   fill='none'
                   stroke='currentColor'
@@ -123,7 +126,8 @@ const Header = () => {
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 class='ionicon'
-                viewBox='0 0 512 512'>
+                viewBox='0 0 512 512'
+              >
                 <path
                   fill='none'
                   stroke='currentColor'
@@ -166,7 +170,8 @@ const Header = () => {
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 class='ionicon'
-                viewBox='0 0 512 512'>
+                viewBox='0 0 512 512'
+              >
                 <path
                   d='M408 64H104a56.16 56.16 0 00-56 56v192a56.16 56.16 0 0056 56h40v80l93.72-78.14a8 8 0 015.13-1.86H408a56.16 56.16 0 0056-56V120a56.16 56.16 0 00-56-56z'
                   fill='none'
@@ -186,7 +191,8 @@ const Header = () => {
               xmlns='http://www.w3.org/2000/svg'
               class='ionicon'
               height='2em'
-              viewBox='0 0 512 512'>
+              viewBox='0 0 512 512'
+            >
               <path
                 fill='none'
                 stroke='currentColor'
@@ -203,7 +209,8 @@ const Header = () => {
               class='ionicon'
               height='2em'
               onClick={toggleClass}
-              viewBox='0 0 512 512'>
+              viewBox='0 0 512 512'
+            >
               <path
                 fill='none'
                 stroke='currentColor'
