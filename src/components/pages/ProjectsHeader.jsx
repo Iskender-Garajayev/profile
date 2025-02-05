@@ -1,10 +1,11 @@
 import React from 'react';
 import '../styles/projects.css';
 import { Link } from 'react-router-dom';
-import Youtube from '../../img/YoutubeLone.jpg';
+// import Youtube from '../../img/YoutubeLone.jpg';
 import Ecommerce from '../../img/e-commerce.png';
 import Dashboard from '../../img/dashboard.png';
 import Weather from '../../img/weather.png';
+import MovieApp from '../../img/movieApp.png';
 
 import Header from '../Header';
 
@@ -13,7 +14,7 @@ const ProjectsHeader = () => {
     <div className='projects-container'>
       <Header />
       <div className='inner-container'>
-        <div className='item-box'>
+        {/* <div className='item-box'>
           <div className='item-img'>
             <Link
               className='link'
@@ -25,7 +26,7 @@ const ProjectsHeader = () => {
           </div>
 
           <div className='item-title'></div>
-        </div>
+        </div> */}
 
         <div className='item-box'>
           <div className='item-img'>
@@ -38,7 +39,7 @@ const ProjectsHeader = () => {
             </Link>
           </div>
 
-          <div className='item-title'></div>
+          <div className='item-title'> </div>
         </div>
 
         <div className='item-box'>
@@ -63,6 +64,20 @@ const ProjectsHeader = () => {
               to='https://weather-app2222-theta.vercel.app/'
             >
               <img src={Weather} alt='Youtube Clone' />
+            </Link>
+          </div>
+
+          <div className='item-title'></div>
+        </div>
+
+        <div className='item-box'>
+          <div className='item-img'>
+            <Link
+              className='link'
+              target='_blank'
+              to='https://movie-app-ig.vercel.app/'
+            >
+              <img src={MovieApp} alt='Youtube Clone' />
             </Link>
           </div>
 
