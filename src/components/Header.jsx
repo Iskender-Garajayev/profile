@@ -17,22 +17,25 @@ const Header = () => {
         <div className='navbar-container'>
           <ul className={isActive ? 'navbar' : 'active'}>
             <li>
-              <Link to='/about'>about me</Link>
+              <Link to='/'>home</Link>
             </li>
             <li>
-              <Link to='/skills'>Skills</Link>
+              <Link to='/about'>about</Link>
             </li>
             <li>
-              <Link to='/education'>education</Link>
+              <Link to='/skills'>resume</Link>
             </li>
             <li>
+              <Link to='/education'>partfolio</Link>
+            </li>
+            {/* <li>
               {' '}
               <Link to='/projects'>projects</Link>
             </li>
             <li>
               {' '}
               <Link to='/contacts'>contacts</Link>
-            </li>
+            </li> */}
           </ul>
           <ul className={isActive ? 'icon-navbar' : 'icon-active'}>
             <li>

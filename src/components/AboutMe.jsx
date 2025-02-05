@@ -70,7 +70,7 @@ const AboutMe = () => {
             </div>
             <div className='icon'>
               <a
-                href='https://wa.me/5451522343'
+                href='https://wa.me/71817891'
                 target='_blank'
                 rel='noopener noreferrer'>
                 <svg
