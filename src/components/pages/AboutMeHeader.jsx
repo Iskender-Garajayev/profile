@@ -8,9 +8,9 @@ const AboutMe = () => {
       <Header />
       <div className='about-inner'>
         <div className='about-title'>
-          <p>Hi, my name is Iskender Garajayevn</p>
-          <p>I'm Front-end Developer</p>
-          <div className='contact-icons'>
+         <p>Energetic and detail oriented Web Developer skilled in writing clean, maintainable code.
+         Front End Web Developer with a passion for writing perfomant, accessible, cross browser friendly, reusable and testable code. Very comfortable using front end frameworks and creating custom solutions. Strong understanding of the latest web technologies including Javascript, React, HTML and CSS. Extensive practice with Javascript, React, Redux.</p>
+          {/* <div className='contact-icons'>
             <div className='icon'>
               <a href='mailto:garajayev@gmail.com'>
                 <svg
@@ -95,7 +95,7 @@ const AboutMe = () => {
                 </svg>
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className='about-img'>
           <img src={Avatar} alt='avatar' />

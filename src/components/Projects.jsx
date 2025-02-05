@@ -8,7 +8,7 @@ const Projects = () => {
       <div className='inner-container'>
         <div className='item-box'>
           <div className='item-img'>
-            <Link to='https://github.com/Iskender-Garajayev/youtube-clone/tree/master'></Link>
+            <Link className='link' target="_blank" to='https://youtube-clone-theta-five.vercel.app'></Link>
           </div>
 
           <div className='item-title'></div>
