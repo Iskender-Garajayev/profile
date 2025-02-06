@@ -1,5 +1,6 @@
 import React from 'react';
 import Avatar from '../../img/avataaars.png';
+import '../styles/about.css';
 
 import Header from '../Header';
 
