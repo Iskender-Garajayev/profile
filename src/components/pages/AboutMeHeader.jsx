@@ -1,5 +1,6 @@
 import React from 'react';
 import Avatar from '../../img/avataaars.png';
+
 import Header from '../Header';
 
 const AboutMe = () => {
@@ -8,8 +9,16 @@ const AboutMe = () => {
       <Header />
       <div className='about-inner'>
         <div className='about-title'>
-         <p>Energetic and detail oriented Web Developer skilled in writing clean, maintainable code.
-         Front End Web Developer with a passion for writing perfomant, accessible, cross browser friendly, reusable and testable code. Very comfortable using front end frameworks and creating custom solutions. Strong understanding of the latest web technologies including Javascript, React, HTML and CSS. Extensive practice with Javascript, React, Redux.</p>
+          <h1>about</h1>
+          <p>
+            Energetic and detail oriented Web Developer skilled in writing
+            clean, maintainable code. Front End Web Developer with a passion for
+            writing perfomant, accessible, cross browser friendly, reusable and
+            testable code. Very comfortable using front end frameworks and
+            creating custom solutions. Strong understanding of the latest web
+            technologies including Javascript, React, HTML and CSS. Extensive
+            practice with Javascript, React, Redux.
+          </p>
           {/* <div className='contact-icons'>
             <div className='icon'>
               <a href='mailto:garajayev@gmail.com'>
