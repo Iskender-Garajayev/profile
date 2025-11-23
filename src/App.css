@@ -296,7 +296,7 @@
     height: auto;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
   }
 
   .about-inner {
@@ -381,5 +381,6 @@
 
   .about-title {
     margin: 20px auto;
+    padding-top: 60px;
   }
 }
